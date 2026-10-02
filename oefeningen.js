@@ -48,3 +48,23 @@ console.log("Totale prijs:", totalePrijs);
 let teller = 0;
 teller++;
 console.log("Nieuwe waarde teller:", teller);
+
+// 3. Boolean
+
+// Oefening 9
+const leeftijd = 18;
+const minimumLeeftijd = 18;
+
+const isLegaal = leeftijd >= minimumLeeftijd;
+console.log("Is legaal:", isLegaal);
+
+// Oefening 10
+const isGelijk = "5" === 5;
+console.log("Strikte gelijkheid test ('5' === 5):", isGelijk);
+
+// Oefening 11
+const isIngelogd = true;
+const isUitgelogd = !isIngelogd;
+
+console.log("Is ingelogd:", isIngelogd);
+console.log("Is uitgelogd:", isUitgelogd);
